@@ -1,0 +1,86 @@
+/* body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f5ef;
+    color: #262626;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #173d2a;
+    padding: 20px 10px;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.hero{
+    min-height: 480px;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.VEQ8G9hbIff2RUKYW3gokAHaEO?r=0&w=1344&h=768&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    color: white;
+}
+.hero h1{
+    font-size: 50px;
+    margin: 0;
+}
+.herop{
+    font-size: 20px;
+    line-height:1.6;
+}
+.hero button{
+    background-color: #f5b544;
+    color: black;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background: white;
+}
+.column{
+    flex: 1;
+}
+.column h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.column p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+}
+/* contact styles */
+.hero-contact{
+    background-color: #173d2a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero-contact h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hero-contact p{
+font-size: 16px;
+line-height: 1.5;
+}
